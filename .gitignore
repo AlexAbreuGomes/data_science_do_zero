@@ -1,0 +1,44 @@
+# Arquivos de cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+.env/
+
+# Pacotes / builds
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Config locais / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs e temporários
+*.log
+*.tmp
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Credenciais / variáveis locais
+*.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Cache de ferramentas
+.mypy_cache/
+.pytest_cache/
+.pyre/
+.coverage
+htmlcov/
